@@ -1,0 +1,15 @@
+SET name = "salman"
+DISPLAY name
+
+INPUT text
+
+FOR(i = 0; i text.length; i++)
+    SET palindrome = text[text.length]
+    text.length -- 1
+ENDFOR
+
+IF text == palindrome
+    DISPLAY "True"
+ELSE IF text != palindrome
+    DISPLAY "False"
+ENDIF

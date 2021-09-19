@@ -1,0 +1,20 @@
+SET name = "salman"
+DISPLAY name
+
+INPUT n
+
+startPoint = 0
+WHILE startPoint <= n
+    IF n mod 3 IS 0
+        DISPLAY "Fizz"
+    ENDIF
+
+    IF n mod 5 IS 0
+        DISPLAY "Buzz"
+    ENDIF
+
+    ADD startPoint + 1
+    DISPLAY startPoint
+ENDWHILE
+
+
